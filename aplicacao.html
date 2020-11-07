@@ -1,0 +1,149 @@
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Americanas - Tudo, A toda hora!</title>
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="estilo.css">
+            
+
+            <link rel="preload" href="imagens/beleza.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/cadeiras.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/chocolates.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/consoles e games.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/eletroportateis.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/fitinis.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/jogos.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/material de limpeza.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/microondas.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/moda.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/notebooks.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/perfumaria.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/produtos internacionais.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/tablets.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/tvs.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+            <link rel="preload" href="imagens/celulares.png" as="image" media="(max-width: 120px)" media="(max-heigth: 120px)">
+
+        </head>
+        <body id="body" onload="carregar()">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div class="conteudo">
+                <header id="header">
+                <div id="avisotopo">
+                    <p class="avisotopo" id="av1"> nossas entregas estão funcionando normalmente. </p>
+                    <p class="avisotopodois" id="av2"> compre com segurança:)</p>
+                </div>    
+                
+                
+                <div id="ame">americanas</div>
+                <input type="text" placeholder="tem tuuudo, pode procurar:)" id="buscar">
+                <div class="logarc" id="logar"> olá, faça seu login<br>ou cadastre-se  ↓</div>
+                <img class="logar-c" src="imagens/login.png"></img> 
+                <div class="logardialogo">
+                    <a><input class="entrar" type="button" value="entrar"></a>
+                </div>
+                
+                <!--<div class="corpoopcoes"> 
+                    <input class="btnc" type="button" value="covid-19 - nossos cuidados" id="btn1">
+                    <input class="btn-c" type="button" value="seja a prime" id="btn2">
+                    <input class="btn-c" type="button" value="empresas" id="btn3">
+                    <input class="btn-c" type="button" value="baixe o app" id="btn4">
+                    <input class="btn-c" type="button" value="receba hoje" id="btn5">
+                    <input class="btn-c" type="button" value="venda com a gente" id="btn6">
+                    <input class="btn-c" type="button" value="produtos importados" id="btn7">
+                    <input class="btn-c" type="button" value="nossas marcas" id="btn8">
+                    <input class="btn-c" type="button" value="oferta do dia" id="btn9">
+                </div>
+                <div id="subcorpo">
+                    
+                    <a href="http://google.com"><input class="btnd" type="button" value="compre por departamento" id="departamento"> </input></a>
+                    <a href="http://google.com"><input class="btn-d" type="button" value="notebook" id="departamento1" > </input></a>
+                    <a href="http://google.com"><input class="btn-d" type="button" value="eletrodomésticos" id="departamento2" ></input></a>
+                    <a href="http://google.com"><input class="btn-d" type="button" value="celulares" id="departamento3" ></input></a>
+                    <a href="http://google.com"><input class="btn-d" type="button" value="eletroportáteis" id="departamento4" ></input></a>
+                    <a href="http://google.com"><input class="btn-d" type="button" value="móveis e decoração" id="departamento5"></input></a>
+                    <a href="http://google.com"><input class="btn-d" type="button" value="beleza e perfumaria" id="departamento6"></input></a>  
+                </div> 
+                </header>
+            
+                <section>
+                <div id="painelantprod">
+                    <div id="painelprodutos">
+                        <div id="avisosprodutos">
+                            <p id="txtav1"> COVID-19 </p>
+                            <p id="txtav2"> acompanhe aqui nossas ações de combate ao coronavírus</p>
+                        </div>
+                            <div>
+                        <div id="descdia"></div>
+                            
+                            
+                        <input id="btn10" type="button" value="<" onmouseenter="btn10ent(this)" onmouseout="btn10sai(this)"> </input>
+                        <div id="divpro1"> propagenda 1 </div>
+                        <div id="divpro2"> propaganda 2 </div>
+                        <div id="divpro3"> propaganda 3 </div>
+                        
+                        <p id="pcat1">categorias em destaque</p>
+                        <div id="imgdest">
+                            <img id="img1" src="imagens/eletroportateis.png" alt="eletroportateis" >
+                            <img id="img2" src="imagens/notebooks.png" alt="notebooks" >
+                            <img id="img3" src="imagens/produtos internacionais.png" alt="produtos internacionais" >
+                            <img id="img4" src="imagens/tablets.png" alt="tablets">
+                            <img id="img5" src="imagens/tvs.png" alt="tvs">
+                            <img id="img6" src="imagens/beleza.png" alt="beleza"> 
+                            <img id="img7" src="imagens/cadeiras.png" alt="cadeiras" >
+                            <img id="img8" src="imagens/celulares.png" alt="celulares">
+                            <input id="btn11" type="button" value=">" onmouseenter="btn10ent(this)" onmouseout="btn10sai(this)" 
+                            onclick="btnimgdest(this)"> </input>
+                        </div>
+                            <p id="pcat2">os mais vendidos de hoje</p>
+                            <div id="divpro4"> propaganda 4 </div>            
+                            <div id="divpro5"> propaganda 5 </div>
+                            <div id="divpro6"> propaganda 6 </div>
+                            <div id="divpro7"> propaganda 7 </div>
+                            <div id="divpro8"> propaganda 8 </div>
+                            <input id="btn12" type="button" value=">" onmouseenter="btn10ent(this)" onmouseout="btn10sai(this)"
+                            onclick="btnimgdest(this)"> </input>
+                            <p id="oftdia1">a </p> </b><p id="oftdia2"> &nbsp;oferta<br>&nbsp;do dia</p>
+                            <div id="oftdia3"> </div>
+                            <div id="divoftdia">
+                                <p id="oftdia4">Ofertas exclusivas para você</p>
+                                <p id="oftdia5"><br>mas cooorre que é só hoje;)</p>
+                            </div>
+                                
+                            <div id="hroftdia1">
+                                <div id="hroftdia2">
+                                    <p id="hrs">00</p>
+                                </div>
+                            </div>
+                            <p id="h">h</p>
+                            <div id="hroftdia3">
+                                <div id="hroftdia4">
+                                    <p id="mnt">00</p>
+                                </div>
+                            </div>
+                            <p id="m">m</p>
+                            <div id="hroftdia5">
+                                <div id="pontrelsgd">
+                                      
+                                </div>
+
+                                <div id="hroftdia6">
+                                    <p id="sgd">00</p>
+                                </div>
+                            </div>
+                                <p id="s">s</p>
+                                
+                    </div>
+                </div>
+                </section> 
+
+                <footer>
+
+                </footer>
+            </div>
+            <script src="script.js"></script>
+        </body>
+        </html>
